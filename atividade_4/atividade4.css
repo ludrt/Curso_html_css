@@ -2,11 +2,13 @@
     background-color: aquamarine;
     color:darkblue ;
     font-size: 18px;
+   font-family: Verdana; 
     width: 500px; 
     height: 500px;
-    border: #ccc solid 5px;
+    border: lightseagreen solid 5px;
     border-radius: 16px;
-    padding: auto;
+    padding: 20px;
+    margin: 30px;
 }
 
 .div2{
@@ -16,20 +18,25 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border: #ccc solid 5px;
+    border: pink solid 5px;
     border-radius: 16px;
-    color: #9b5ee6 ;
+    color: #fff ;
     font-size: 18px;
     padding: 20px;
+    margin: 30px;
+    font-family: 'Comic Sans MS', cursive;
+    
 }
 
 .div3{
     color: darkmagenta;
-    font-size: 18px;
-    border: #ccc solid 5px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    border: purple solid 10px;
     border-radius: 16px;
     width: 300px;
     height: 800px;
     background: linear-gradient(to top, deeppink, tomato);
     padding: 20px;
+    margin: 30px;
 }
