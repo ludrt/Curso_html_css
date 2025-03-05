@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro 123</title>
+</head>
+<body>
+    <h1>Formulário de Registro na Registro 123</h1>
+    <form action="/registro" method="POST">
+        <!-- Campo Nome -->
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <!-- Campo Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Campo Senha -->
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <!-- Campo Idade -->
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade" min="0" required><br><br>
+
+        <!-- Campo Escolaridade (Radio Buttons) -->
+        <label>Grau de Escolaridade:</label><br>
+        <input type="radio" id="fundamental" name="escolaridade" value="Fundamental" required>
+        <label for="fundamental">Fundamental</label><br>
+
+        <input type="radio" id="medio" name="escolaridade" value="Médio">
+        <label for="medio">Médio</label><br>
+
+        <input type="radio" id="superior" name="escolaridade" value="Superior">
+        <label for="superior">Superior</label><br><br>
+
+        <!-- Campo Termos de Uso (Checkbox) -->
+        <input type="checkbox" id="termos" name="termos" required>
+        <label for="termos">Aceito os termos de uso</label><br><br>
+
+        <!-- Botão de Envio -->
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>
